@@ -1,0 +1,20 @@
+{
+    "name": "ivproduction/oneclick-order-extension",
+    "description": "Magento 2 One Click Order extension",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "version": "0.0.1",
+    "require": {
+        "php": ">=7.4",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IvProduction\\OneClickOrder\\": ""
+        }
+    }
+}
+
